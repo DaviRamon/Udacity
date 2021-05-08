@@ -15,8 +15,8 @@ fun max1(a: Int, b: Int) = if (a > b) a else b
 
 
 fun variables(){
-    var fish = "golden fish"
-    var plant = " ferns"
+    val fish = "golden fish"
+    val plant = " ferns"
 
     println(" i have 3 $fish and, 2 $plant ")
 }
