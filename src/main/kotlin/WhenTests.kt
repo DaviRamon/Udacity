@@ -3,7 +3,7 @@ fun main(){
     fishName()
 }
 fun whenteste(){
-    var welcomeMessage = "Hello and welcome to Kotlin"
+    val welcomeMessage = "Hello and welcome to Kotlin"
 
     when (welcomeMessage.length){
         0 -> println("Nothing to say?")
@@ -14,7 +14,7 @@ fun whenteste(){
 }
 
 fun fishName(){
-    var fishName = "Davi Ramon Gonçalves"
+    val fishName = "Davi Ramon Gonçalves"
 
     when(fishName.length){
         0 -> println("Error: The fish must have a name!")

@@ -3,9 +3,9 @@ fish()
 }
 
 fun fish(){
-    var trout ="trout"
-    var haddock ="haddock"
-    var snapper = "snapper"
+    val trout ="trout"
+    val haddock ="haddock"
+    val snapper = "snapper"
 
     println("I like to eat $trout, but not $haddock, also $snapper")
 }
