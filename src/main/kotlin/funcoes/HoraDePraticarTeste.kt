@@ -18,3 +18,5 @@ fun randomDay() : String {
     return  week[Random().nextInt(7)] // index 0 to 6
 
 }
+
+
