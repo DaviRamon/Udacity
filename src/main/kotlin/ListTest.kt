@@ -16,4 +16,11 @@ fun list(){
 
     println(myList)
     println(list)
+
+    // adiciona algo em uma lista por Input
+    val lista : MutableList<String> = ArrayList()
+    list.add(readLine().toString())
+
+    println(list)
+
 }

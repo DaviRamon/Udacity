@@ -2,17 +2,13 @@ package funcoes
 
 import java.util.*
 
-fun main() {
-    getFortuneCookie()
-}
-
+fun main() {getFortuneCookie() }
 
 fun getBirthday(): String? {
     print("What is your birthday?  ")
     // recebe o dia como uma string.
     val birthday = readLine()
     return (birthday)
-
 }
 
 fun convertBirthdayToInt(): Int? {
@@ -30,13 +26,13 @@ fun randomFortune(): String {
         "Enjoy a wonderful day of success.","Be humble and all will turn out well.", "Today is a good day for exercising restraint.",
         "Take it easy and enjoy life!", "Treasure your friends because they are your greatest fortune.")
 
-    return (randomFortune[Random().nextInt(7)])
+    return (randomFortune [ Random().nextInt(7) ] )
 
 }
 
 fun getFortuneCookie() {
     // recebe a data de aniversario
-    when(convertBirthdayToInt()){
+    when( convertBirthdayToInt() ) {
         null -> { // caso o valor recebido seja nulo,
             do {
                 println("Enter a valid number: ")
@@ -44,10 +40,8 @@ fun getFortuneCookie() {
             println("You fortune is: ${randomFortune()}") // caso o usuario digite um numero termina o laço e mostra a sorte do dia.
 
         }
-        else -> println("You fortune is: ${randomFortune()}")
-
+        else -> println( "You fortune is: ${randomFortune()}" )
     }
-
 }
 
 // RESPOSTA SUGERIDA PELO DESAFIO
